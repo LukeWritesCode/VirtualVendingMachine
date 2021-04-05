@@ -13,7 +13,7 @@ This project can be done using any IDE for node.js, for my implementation I used
 3. https://www.google.com/chrome/
 
 ## Envorinment Setup
-The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but most of the steps included are unnecessary becasue of the files I have provided. 
+The setup of the environment for this project is given below. I used Node.js with Express for the backend and React for the frontend. The link to the tutorial I used to setup my environment can be found at the bottom of the page, but most of the steps included in the tutorial are unnecessary becasue of the files I have provided. 
 
 
 To start this project, first you will need a project folder:
