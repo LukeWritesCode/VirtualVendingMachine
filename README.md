@@ -2,9 +2,9 @@
 A virtual vending machine
 
 In order to run this project, you must have npm, node.js, and React downloaded. They can be found here:
-https://www.npmjs.com
-https://nodejs.org/en/download/
-https://reactjs.org
+1. https://www.npmjs.com
+2. https://nodejs.org/en/download/
+3. https://reactjs.org
 
 The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but the steps included are unnecessary becasue of the files I have provided. 
 
