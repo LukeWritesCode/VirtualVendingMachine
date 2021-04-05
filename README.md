@@ -24,7 +24,7 @@ To start this project, first you will need a project folder:
 `$cd project_name`
 
 
-Once youre in the project folder, you will create a react app:
+Once you're in the project folder, you will create a react app:
 
 `$npx create-react-app client`
 
@@ -54,9 +54,9 @@ After following these steps, there will be a number of files under "Client" and 
 2) There will be another file folder under ~/Client/api/routes/ the file I have provided for this folder is inventory.js.
    This file needs to be added into the routes folder so that it looks like ~/Client/api/routes/inventory.js
 
-3) There will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have proveded. (note: app.js and App.js are not the same file)
+3) There will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have provided. (note: app.js and App.js are not the same file)
 
-4) There will be a file named www under ~/Client/api/bin/www this file should replaced by the www file I have provided.
+4) There will be a file named www under ~/Client/api/bin/www this file should be replaced by the www file I have provided.
 
 After completing these steps, the backend and frontend must both be restarted. To start the backend, navigate to the api folder in the terminal and type:
 
