@@ -6,7 +6,7 @@ In order to run this project, you must have npm, node.js, and React downloaded. 
 2. https://nodejs.org/en/download/
 3. https://reactjs.org
 
-This project can be starting using and IDE for node.js, for my implementation I used Visual Studio Code. For the browser, I used Safari, but Google Chrome should work as well. Not all browsers can be used, so try to use either Chrome or Safari:
+This project can be done using any IDE for node.js, for my implementation I used Visual Studio Code. For the browser, I used Safari, but Google Chrome should work as well. Not all browsers can be used, so try to use either Chrome or Safari:
 1. https://code.visualstudio.com/download
 2. https://support.apple.com/downloads/safari
 3. https://www.google.com/chrome/
