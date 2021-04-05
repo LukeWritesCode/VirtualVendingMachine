@@ -6,6 +6,12 @@ In order to run this project, you must have npm, node.js, and React downloaded. 
 2. https://nodejs.org/en/download/
 3. https://reactjs.org
 
+This project can be starting using and IDE for node.js, for my implementation I used Visual Studio Code. For the browser, I used Safari, but Google Chrome should work as well. Not all browsers can be used, so try to use either Chrome or Safari:
+1. https://code.visualstudio.com/download
+2. https://support.apple.com/downloads/safari
+3. https://www.google.com/chrome/
+
+
 The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but the steps included are unnecessary becasue of the files I have provided. 
 
 
@@ -61,6 +67,9 @@ To start the frontend, navigate to the client folder in the terminal and type:
 `$npm install`
 
 `$npm start`
+
+The backend can be accessed via:  localhost:9000/ in a web browser
+The frontend can be accessed via:  localhost:3000/ the frontend should be automatically navigated to after typing the start command
 
 Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor. The vendor should restock (see below). Once the vendors restock, the changes will be reflected on the page. 
 
