@@ -12,7 +12,7 @@ This project can be done using any IDE for node.js, for my implementation I used
 3. https://www.google.com/chrome/
 
 
-The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but the steps included are unnecessary becasue of the files I have provided. 
+The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but most of the steps included are unnecessary becasue of the files I have provided. 
 
 
 To start this project, first you will need a project folder:
