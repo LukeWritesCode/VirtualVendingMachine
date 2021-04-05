@@ -45,7 +45,7 @@ Now we must create the express app. While in your project folder, type:
 
 Once again, you can navigate to http://localhost:3000/ to verify it has worked. 
 
-After following these steps, there will be a number of files under "Client" and under "api". Only four of these files need to be replaced with the ones I provided. 
+After following these steps, there will be a number of files under "Client" and under "api". Only four of these files need to be replaced with the ones I provided. The rest can remain unedited.
 
 1) There will be a file names app.js under ~/Client/api/app.js this file should be replaced with the app.js I have provided
 
