@@ -1,7 +1,7 @@
 # VirtualVendingMachine
 A virtual vending machine
 
-## Installation
+## Requirements
 In order to run this project, you must have npm, node.js, and React downloaded. They can be found here:
 1. https://www.npmjs.com
 2. https://nodejs.org/en/download/
@@ -12,7 +12,7 @@ This project can be done using any IDE for node.js, for my implementation I used
 2. https://support.apple.com/downloads/safari
 3. https://www.google.com/chrome/
 
-## Environment Setup
+## Installation and Environment Setup
 The setup of the environment for this project is given below. I used Node.js with Express for the backend and React for the frontend. The link to the tutorial I used to setup my environment can be found at the bottom of the page, but most of the steps included in the tutorial are unnecessary because of the files I have provided. 
 
 
