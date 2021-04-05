@@ -47,12 +47,12 @@ Once again, you can navigate to http://localhost:3000/ to verify it has worked.
 
 After following these steps, there will be a number of files under "Client" and under "api". Only four of these files need to be replaced with the ones I provided. The rest can remain unedited.
 
-1) There will be a file named app.js under ~/Client/api/app.js this file should be replaced with the app.js I have provided.
+1) There will be a file named app.js under ~/Client/api/app.js this file should be replaced with the app.js I have provided. (note: app.js and App.js are not the same file)
 
 2) There will be another file folder under ~/Client/api/routes/ the file I have provided for this folder is inventory.js.
-   This file needs to be added into the routes folder so that it looks like Client/api/routes/inventory.js
+   This file needs to be added into the routes folder so that it looks like ~/Client/api/routes/inventory.js
 
-3) There will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have proveded.
+3) There will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have proveded. (note: app.js and App.js are not the same file)
 
 4) There will be a file named www under ~/Client/api/bin/www this file should replaced by the www file I have provided.
 
@@ -71,7 +71,7 @@ To start the frontend, navigate to the client folder in the terminal and type:
 The backend can be accessed via:  localhost:9000/ in a web browser
 The frontend can be accessed via:  localhost:3000/ the frontend should be automatically navigated to after typing the start command
 
-Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor. The vendor should restock (see below). Once the vendors restock, the changes will be reflected on the page. 
+Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor (the vendor method for restock can be seen below). Once the vendor restocks, the changes will be reflected on the page. 
 
 In order to restock, the backend should be accessed with an http link that reads http://localhost:9000/inventory/restock?id=__&amount=__
 The underscores should be replaced with the soda id and amount of soda to restock respectively. The ids for the sodas are 0-3.
