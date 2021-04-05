@@ -28,5 +28,7 @@ To start the frontend, navigate to the client folder in the terminal and type:
 $npm install
 $npm start
 
+Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor. The vendor should restock (see below). Once the vendors restock, the changes will be reflecked on the page. 
+
 In order to restock, the backend should be accessed with an http link that reads http://localhost:9000/inventory/restock?id=__&amount=__
-The underscores should be replaced with id and amount of soda to restock respectively. The ids for the sodas are 0-3.
+The underscores should be replaced with the soda id and amount of soda to restock respectively. The ids for the sodas are 0-3.
