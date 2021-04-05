@@ -73,8 +73,11 @@ The frontend can be accessed via:  http://localhost:3000/ but the frontend shoul
 
 Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor (the vendor method for restock can be seen below). Once the vendor restocks, the changes will be reflected on the page. 
 
-In order to restock, the backend should be accessed with an http link that reads http://localhost:9000/inventory/restock?id=__&amount=__
-The underscores should be replaced with the soda id and amount of soda to restock respectively. The ids for the sodas are 0-3.
+There are 3 API routes:
+ 1. decrementQuantity: This API route will reduce the quantity of each soda so that the amount can be tracked. The frontend will call this every time the button is clicked. Once the quantity reaches 0, the backend will stop decrementing and return 0. If the frontend sees quantity is 0, the button will be removed. 
+ 2. restock: In order to restock, the backend should be accessed with an http link that reads http://localhost:9000/inventory/restock?id=__&amount=__
+The underscores should be replaced with the soda id and amount of soda to restock respectively. The ids for the sodas are 0-3. The restock will add the amount to the current quantity. If the sum of the current amount plus the quantity to be added exceeds the quantity for that soda, then the soda will simply be filled to max quantity. 
+3. callAPI: this function will fetch the product inventory from the backend as an array where `products[0]` would contain the first soda. Each soda has 7 attributes: ID, Name, Price, Description, quantity, max_quantity, productImageUrl.
 
 
 Environment setup tutorial:
