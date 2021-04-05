@@ -68,8 +68,8 @@ To start the frontend, navigate to the client folder in the terminal and type:
 
 `$npm start`
 
-The backend can be accessed via:  http://localhost:9000/ in a web browser
-The frontend can be accessed via:  http://localhost:3000/ the frontend should be automatically navigated to after typing the start command
+The backend can be accessed via:  http://localhost:9000/ in a web browser.
+The frontend can be accessed via:  http://localhost:3000/ but the frontend should be automatically navigated to after typing the start command
 
 Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor (the vendor method for restock can be seen below). Once the vendor restocks, the changes will be reflected on the page. 
 
