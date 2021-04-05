@@ -51,11 +51,15 @@ After following these steps, there will be a number of files under "Client" and 
 4) There will be a file named www under ~/Client/api/bin/www this file should replaced by the www file I have provided
 
 After completing these steps, the backend and frontend must both be restarted. To start the backend, navigate to the api folder in the terminal and type:
+
 `$npm install`
+
 `$npm start`
 
 To start the frontend, navigate to the client folder in the terminal and type:
+
 `$npm install`
+
 `$npm start`
 
 Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor. The vendor should restock (see below). Once the vendors restock, the changes will be reflected on the page. 
