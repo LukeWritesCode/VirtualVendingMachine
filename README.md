@@ -23,7 +23,7 @@ $cd client
 
 $npm start
 
-In your browser, you can navigate to http://localhost:3000/ 
+In your browser, you can navigate to http://localhost:3000/ to view the react app
 
 Now we must create the express app. While in your project folder, type:
 
