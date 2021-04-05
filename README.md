@@ -10,20 +10,29 @@ The setup of the environment for this project is given below. A link to a more e
 
 
 To start this project, first you will need a project folder:
+
 $mkdir project_name
+
 $cd project_name
 
 Once youre in the project folder, you will create a react app:
+
 $npx create-react-app client
+
 $cd client
+
 $npm start
 
 In your browser, you can navigate to http://localhost:3000/ 
 
 Now we must create the express app. While in your project folder, type:
+
 $npx express-generator api
+
 $cd api
+
 $npm install
+
 $npm start
 
 Once again, you can navigate to http://localhost:3000/ to verify it has worked. 
