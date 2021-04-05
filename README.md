@@ -1,6 +1,7 @@
 # VirtualVendingMachine
 A virtual vending machine
 
+## Installation
 In order to run this project, you must have npm, node.js, and React downloaded. They can be found here:
 1. https://www.npmjs.com
 2. https://nodejs.org/en/download/
@@ -11,7 +12,7 @@ This project can be done using any IDE for node.js, for my implementation I used
 2. https://support.apple.com/downloads/safari
 3. https://www.google.com/chrome/
 
-
+### Envorinment Setup
 The setup of the environment for this project is given below. A link to a more extensive tutorial can be found at the bottom of the page, but most of the steps included are unnecessary becasue of the files I have provided. 
 
 
@@ -45,6 +46,7 @@ Now we must create the express app. While in your project folder, type:
 
 Once again, you can navigate to http://localhost:3000/ to verify it has worked. 
 
+#### File to Replace
 After following these steps, there will be a number of files under "Client" and under "api". Only four of these files need to be replaced with the ones I provided. The rest can remain unedited.
 
 1) There will be a file named app.js under ~/Client/api/app.js this file should be replaced with the app.js I have provided. (note: app.js and App.js are not the same file)
@@ -68,11 +70,13 @@ To start the frontend, navigate to the client folder in the terminal and type:
 
 `$npm start`
 
+##### User Manual
 The backend can be accessed via:  http://localhost:9000/ in a web browser.
 The frontend can be accessed via:  http://localhost:3000/ but the frontend should be automatically navigated to after typing the start command
 
 Once it is running, 4 sodas will appear on the screen with their respective description as well as the quantity of remaining sodas. When the button for a soda is clicked, its JSON soda file will download. Once the quantity is 0, the button will disappear and that soda will be unavailable until it is restocked by the vendor (the vendor method for restock can be seen below). Once the vendor restocks, the changes will be reflected on the page. 
 
+###### API Manual
 There are 3 API routes:
  1. decrementQuantity: This API route will reduce the quantity of each soda so that the amount can be tracked. The frontend will call this every time the button is clicked. Once the quantity reaches 0, the backend will stop decrementing and return 0. If the frontend sees quantity is 0, the button will be removed. 
  2. restock: In order to restock, the backend should be accessed with an http link that reads http://localhost:9000/inventory/restock?id=__&amount=__
