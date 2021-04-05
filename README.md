@@ -37,14 +37,16 @@ $npm start
 
 Once again, you can navigate to http://localhost:3000/ to verify it has worked. 
 
-After following these steps, there will be a number of files under "Client" and under "api". Only three of these files need to be replaced with the ones I provided. 
+After following these steps, there will be a number of files under "Client" and under "api". Only four of these files need to be replaced with the ones I provided. 
 
 1) There will be a file names app.js under ~/Client/api/app.js this file should be replaced with the app.js I have provided
 
 2) There will be another file folder under ~/Client/api/routes/ the file I have provided for this folder is inventory.js 
    This file needs to be added into the routes folder so that it looks like Client/api/routes/inventory.js
 
-3) Finally, there will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have proveded.
+3) There will be a file named App.js under ~/Client/src/App.js this file should be replaced by the App.js file I have proveded.
+
+4) There will be a file named www under ~/Client/api/bin/www this file should replaced by the www file I have provided
 
 After completing these steps, the backend and frontend must both be started. To start the backend, navigate to the api folder in the terminal and type:
 $npm install
